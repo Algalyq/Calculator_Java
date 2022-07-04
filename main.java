@@ -173,7 +173,7 @@ public class main{
 			String str = getSyntax(num%10);
 			
 			str = str.replace("a",d[i][0]);
-			if(i!=3){                   //max value will be 3999 so not inisilize the 2nd and 3rd index of d[3] array above
+			if(i!=3){                   
 				str = str.replace("b",d[i][1]);
 				str = str.replace("c",d[i][2]);
 			}
@@ -184,7 +184,7 @@ public class main{
 		return s;
 	}
 	
-	public static String getSyntax(int digit){    // using this to get the common syntax for each digit
+	public static String getSyntax(int digit){   
 		String s="";
 		switch(digit){
 			case 1: s="a";
